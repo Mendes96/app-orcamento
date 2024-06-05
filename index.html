@@ -12,7 +12,9 @@
     <title>Gerador de Orçamento</title>
 </head>
 <body>
-    <header></header>
+    <header class="display--flex justify--center align--center">
+        <img src="images/Logo2-Sem-Fundo-Final.png" alt="imagem da logo da empresa">
+    </header>
     <section class="container--principal display--grid">
         <div class="input--box">
             <label for="nome">Nome</label>
@@ -24,7 +26,6 @@
             <input type="text" name="endereco--saida" id="endereco--saida">
         </div>
         
-
         <div class="items--box">
             <div>
                 <label for="numero--saida">Número</label>
@@ -46,11 +47,11 @@
 
             
         </div>
+
         <div class="input--box">
             <label for="endereco--entrega">Endereço Entrega</label>
             <input type="text" name="endereco--entrega" id="endereco--entrega">
         </div>
-
 
         <div class="items--box">
             <div>
@@ -70,7 +71,14 @@
                 <label for="andar--entrega">Andar</label>
                 <input type="number" id="andar--entrega">
             </div>
-        <a href="#" class="botao--enviar"></a>
+        </div>
+        <div class="text--box display--flex">
+            <label for="texto--op">Informações Opcionais</label>
+            <textarea id="texto--op"></textarea>
+        </div>
+        <div class="button--box">
+            <a href="#" class="botao--enviar">Enviar</a>
+        </div>
     </section>
 
 
